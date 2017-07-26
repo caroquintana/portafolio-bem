@@ -1,0 +1,38 @@
+//estilos menu
+header{
+	background-color: $color_nav;
+}
+.nav-img{
+	display: inline-block;
+	margin-left: 300px;
+    padding: 4px;
+}
+.a-menu{
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	margin-top: 0;
+    float: right;
+    margin-right: 130px;
+}
+.a-menu__item{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 300;
+	padding: 15px;
+	color: white;
+}
+.a-menu__item__link{
+	color: $color_typo;
+	text-decoration:none;
+	&:hover{
+		background-color:$color_secundario;
+		color: $color_typo;
+		text-decoration:none;
+		padding: 10px;
+		border-radius: 18px;
+	}
+.a-menu__item__photonav{
+	width: 17%;
+	}
+}
