@@ -1,28 +1,27 @@
-//estilos menu
-header{
+//nav
+.navigator{
 	background-color: $color_nav;
-}
-.nav-img{
+	& .nav-img{
 	display: inline-block;
 	margin-left: 300px;
     padding: 4px;
-}
-.a-menu{
+	}
+	& .a-menu{
 	display: inline-block;
 	text-align: center;
 	padding: 20px;
 	margin-top: 0;
     float: right;
     margin-right: 130px;
-}
-.a-menu__item{
+	}
+	& .a-menu__item{
 	display: inline-block;
 	font-size: 20px;
 	font-weight: 300;
 	padding: 15px;
 	color: white;
-}
-.a-menu__item__link{
+	}
+	& .a-menu__item__link{
 	color: $color_typo;
 	text-decoration:none;
 	&:hover{
@@ -32,7 +31,44 @@ header{
 		padding: 10px;
 		border-radius: 18px;
 	}
-.a-menu__item__photonav{
+	& .a-menu__item__photonav{
 	width: 17%;
+		}
+	}
+}
+
+
+//presentacion
+.first{
+	background-color: $color_secundario;
+	color: $color_typo;
+	& .img__photo {
+    border-radius: 187px;
+    width: 24%;
+    margin-left: 200px;
+    margin-top: 80px;
+    }
+    & .profile {
+    width: 600px;
+    margin: 0;
+    float: right;
+    margin-top: 80px;
+    text-align: left;
+    & .profile__name{
+    	color: $color_name;
+    	font-size: 35px;
+    	font-weight: 400;
+    	margin-bottom: 0;
+    	}
+    & .profile_profesion{
+    	font-size: 25px;
+    	font-weight: 400;
+    	margin-top: 2px;
+    	margin-bottom: 50px;
+    	}
+    & .profile__description {
+    	line-height: 24px;
+    	font-size: 17px;
+		}
 	}
 }
