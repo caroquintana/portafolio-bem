@@ -56,10 +56,7 @@
     text-align: left;
 	margin-right: 75px;
     & .profile__name{
-    	color: $color_name;
-    	font-size: 35px;
-    	font-weight: 400;
-    	margin-bottom: 0;
+    	@include titulo;
     	}
     & .profile_profesion{
     	font-size: 25px;
@@ -68,9 +65,7 @@
     	margin-bottom: 50px;
     	}
     & .profile__description {
-    	line-height: 24px;
-    	font-size: 17px;
-    	margin-bottom: 50px;
+    	@include subtitulo;
 		}
 	& .profile__hireme{
 		color: $color_typo;
@@ -99,4 +94,43 @@
 .works{
 	background-color: $color_name;
 	color:  $color_typo;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	& .descriptions{
+		width: 34%;
+		padding-left: 80px;
+		padding-right: 80px;
+		float: right;
+		& .descriptions__title{
+			@include titulo;
+			color: $color_typo;
+		}
+		& .descriptions__subtitle{
+			color: $color_typo;
+			@include subtitulo;
+    		font-weight: 300;
+		}
+	}
+	& .list{
+		& .list__portfolio{
+			list-style: none;
+			& .list__porfolio__cat{
+				width: 20%;
+				display: inline-block;
+				& .list__porfolio__cat--purr{
+					width: 100%;
+				}
+				& .list__porfolio__cat--felix{
+					width: 100%;
+				}
+				& .list__porfolio__cat--sleep{
+					width: 100%;
+				}
+				& .list__porfolio__cat--girl{
+					width: 100%;
+				}
+			}
+		}
+	}
+	
 }
