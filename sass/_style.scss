@@ -49,11 +49,12 @@
     margin-top: 80px;
     }
     & .profile {
-    width: 600px;
+    width: 548px;
     margin: 0;
     float: right;
     margin-top: 80px;
     text-align: left;
+	margin-right: 75px;
     & .profile__name{
     	color: $color_name;
     	font-size: 35px;
@@ -69,6 +70,33 @@
     & .profile__description {
     	line-height: 24px;
     	font-size: 17px;
+    	margin-bottom: 50px;
+		}
+	& .profile__hireme{
+		color: $color_typo;
+		font-size: 20px;
+		background-color: $color_name;
+		padding: 23px;
+		text-decoration: none;
+		border-radius: 38px;
+		margin-left: 160px;
 		}
 	}
+	& .redes{
+		margin-right: 100px;
+		padding: 60px;
+		& .social{
+			width: 60%;
+			margin-left: 355px;
+			& .social__item{
+			display: inline-block;
+			font-size: 38px;
+			padding: 6px;
+			}
+		}
+	}
+}
+.works{
+	background-color: $color_name;
+	color:  $color_typo;
 }

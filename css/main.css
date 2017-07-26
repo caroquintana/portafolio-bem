@@ -39,11 +39,12 @@
     margin-left: 200px;
     margin-top: 80px; }
   .first .profile {
-    width: 600px;
+    width: 548px;
     margin: 0;
     float: right;
     margin-top: 80px;
-    text-align: left; }
+    text-align: left;
+    margin-right: 75px; }
     .first .profile .profile__name {
       color: #39D084;
       font-size: 35px;
@@ -56,7 +57,30 @@
       margin-bottom: 50px; }
     .first .profile .profile__description {
       line-height: 24px;
-      font-size: 17px; }
+      font-size: 17px;
+      margin-bottom: 50px; }
+    .first .profile .profile__hireme {
+      color: #fff;
+      font-size: 20px;
+      background-color: #39D084;
+      padding: 23px;
+      text-decoration: none;
+      border-radius: 38px;
+      margin-left: 160px; }
+  .first .redes {
+    margin-right: 100px;
+    padding: 60px; }
+    .first .redes .social {
+      width: 60%;
+      margin-left: 355px; }
+      .first .redes .social .social__item {
+        display: inline-block;
+        font-size: 38px;
+        padding: 6px; }
+
+.works {
+  background-color: #39D084;
+  color: #fff; }
 
 body {
   padding: 0;
